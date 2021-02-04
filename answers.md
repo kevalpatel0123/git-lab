@@ -1,0 +1,97 @@
+Answer 1 - git version 2.24.3 (Apple Git-128)
+
+Answer 2 - credential.helper=osxkeychain
+user.name=Keval Patel
+user.email=kp005919@ohio.edu
+
+Answer 3 
+ Last login: Tue Jan 26 18:52:13 on ttys002
+kevalpatel@MacBook-Pro ~ % git --help
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone     Clone a repository into a new directory
+   init      Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add       Add file contents to the index
+   mv        Move or rename a file, a directory, or a symlink
+   restore   Restore working tree files
+   rm        Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect    Use binary search to find the commit that introduced a bug
+   diff      Show changes between commits, commit and working tree, etc
+   grep      Print lines matching a pattern
+   log       Show commit logs
+   show      Show various types of objects
+   status    Show the working tree status
+
+grow, mark and tweak your common history
+   branch    List, create, or delete branches
+   commit    Record changes to the repository
+   merge     Join two or more development histories together
+   rebase    Reapply commits on top of another base tip
+   reset     Reset current HEAD to the specified state
+   switch    Switch branches
+   tag       Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch     Download objects and refs from another repository
+   pull      Fetch from and integrate with another repository or a local branch
+   push      Update remote refs along with associated objects
+
+
+Answer 4
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+See 'git help git' for an overview of the system.
+
+
+Answer 5
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	git-lab/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Answer 6
+nothing added to commit but untracked files present (use "git add" to track)
+
+Answer 7
+[master (root-commit) a9c3fe1] Initial commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 git-lab/git-lab/README.md
+
+ Answer 8 
+ commit a9c3fe15902b71ffe20f609acbd105cd324bdd97 (HEAD -> master)
+Author: Keval Patel <kp005919@ohio.edu>
+Date:   Tue Jan 26 19:11:23 2021 -0500
+
+Answer 9
+It got uploaded
+
+Answer 10
+No
+Answer 11 
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/kevalpatel0123/git-lab.git'
+
+Answer 12
+nothing happened
+
+Answer 13
+.		..		.git		git-lab		git-lab-2
+
+
